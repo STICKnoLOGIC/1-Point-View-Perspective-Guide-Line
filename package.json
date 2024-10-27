@@ -1,0 +1,29 @@
+ {
+  "name": "1 point View Perspective Guide Line",
+  "displayName": "1 point View Perspective Guide Line",
+  "description": "An aseprite extension that quickly generates single point perspective",
+  "version": "0.0.1-beta",
+  "author": {
+    "name": "STICKnoLOGIC",
+    "email": "j.azer.yality@gmail.com",
+    "url": "https://sticknologic.itch.io/"
+  },
+  "contributors": [],
+  "publisher": "STICKnoLOGIC",
+  "license": "CC-BY-4.0",
+  "categories": [
+    "Scripts"
+  ],
+  "contributes": {
+    "scripts": [
+      {
+        "path": "./1PointViewGuide.lua"
+      }
+    ], "keys": [
+      {
+        "id": "1PointViewGuide-keys",
+        "path": "./ext-key.aseprite.xml"
+      }
+    ]
+  }
+}
